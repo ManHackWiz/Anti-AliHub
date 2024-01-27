@@ -17,6 +17,7 @@ Extra_Section:NewButton("Infinite Yield", "Executes Infinite Yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-Extra_Section:NewButton("Dex", "Executes DEX to view game explorer", function()
+Extra_Section:NewButton("Dex Explorer", "Executes DEX to view game explorer", function()
+    loadstring(game:HttpGet('https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt'))()
     
 end)
